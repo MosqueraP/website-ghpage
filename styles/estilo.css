@@ -344,6 +344,17 @@ html{
     transition: .3s;
 }
 
+/* PORTAFOLIO - PROYECTOS EN PROCESO */
+.contenido-seccion p {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
@@ -520,5 +531,10 @@ footer .arriba{
     }
     .contacto .fila .col{
         width: 100%;
+    }
+    .sobremi .fila .col ul li strong{
+        display: inline-block;
+        color: #1CB698;
+        width: 90px;
     }
 }
