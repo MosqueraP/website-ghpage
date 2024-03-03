@@ -31,7 +31,8 @@ html{
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 36px;
-    color: #1CB698;
+    /* color: #1CB698; */
+    color: #33BDDA;
     /* color: #00A264; */
     text-decoration: none;
 }
@@ -50,11 +51,11 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #33BDDA;
     
 }
 .nav-responsive{
-    background-color: #1CB698;
+    background-color: #33BDDA;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -64,7 +65,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/bannerprueba.png);
+    url('../img/bannerprueba.png');
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -109,7 +110,7 @@ html{
 
 .inicio .contenido-banner span{
     font-family: 'Roboto', sans-serif;
-    color: #1CB698;
+    color: #33BDDA;
     font-size: 1.5em;
     letter-spacing: 1px;
 
@@ -130,7 +131,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #33BDDA;
 }
 
 .sobremi{
@@ -169,7 +170,7 @@ html{
     text-align: left;
     font-weight: 100;
     letter-spacing: 1px;
-    color: #1CB698;
+    color: #33BDDA;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -199,11 +200,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #33BDDA;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #33BDDA;
     padding: 3px;
     font-weight: bold;
     /* border-radius: 5px; */
@@ -224,7 +225,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #33BDDA;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -249,7 +250,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #33BDDA;
     z-index: -1;
     transition: 1s;
 }
@@ -357,7 +358,7 @@ html{
 
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
+    background-image: url(../img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
@@ -413,7 +414,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #33BDDA;
     z-index: -1;
     transition: 1s;
 }
@@ -450,14 +451,14 @@ footer .redes a{
 }
 
 footer .redes a:hover{
-    background-color: #1CB698;
+    background-color: #33BDDA;
 }
 
 footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #33BDDA;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -534,7 +535,7 @@ footer .arriba{
     }
     .sobremi .fila .col ul li strong{
         display: inline-block;
-        color: #1CB698;
+        color: #33BDDA;
         width: 90px;
     }
 }
