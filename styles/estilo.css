@@ -32,7 +32,7 @@ html{
     letter-spacing: 1px;
     font-size: 36px;
     /* color: #1CB698; */
-    color: #33BDDA;
+    color: #218ea3;
     /* color: #00A264; */
     text-decoration: none;
 }
@@ -55,7 +55,7 @@ html{
     
 }
 .nav-responsive{
-    background-color: #33BDDA;
+    background-color: #218ea3;
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -110,7 +110,7 @@ html{
 
 .inicio .contenido-banner span{
     font-family: 'Roboto', sans-serif;
-    color: #33BDDA;
+    color: #218ea3;
     font-size: 1.5em;
     letter-spacing: 1px;
 
@@ -131,11 +131,12 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #33BDDA;
+    background-color: #236f7e;
 }
 
 .sobremi{
-    background-color: #191d1f;
+    /* background-color: #191d1f; */
+    background-color: #218ea3;
     color: #fff;
     padding: 50px 20px;
 }
@@ -200,11 +201,12 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #33BDDA;
+    /* color: #33BDDA; */
+    color: #fff;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #33BDDA;
+    background-color: #218ea3;
     padding: 3px;
     font-weight: bold;
     /* border-radius: 5px; */
@@ -415,7 +417,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #33BDDA;
+    background-color: #218ea3;
     z-index: -1;
     transition: 1s;
 }
@@ -452,14 +454,14 @@ footer .redes a{
 }
 
 footer .redes a:hover{
-    background-color: #33BDDA;
+    background-color: #218ea3;
 }
 
 footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #33BDDA;
+    background-color: #218ea3;
     color: #fff;
     position: absolute;
     left: 50%;
@@ -536,7 +538,7 @@ footer .arriba{
     }
     .sobremi .fila .col ul li strong{
         display: inline-block;
-        color: #33BDDA;
+        color: #218ea3;
         width: 90px;
     }
 }
