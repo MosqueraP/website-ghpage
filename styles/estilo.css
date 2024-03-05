@@ -138,7 +138,7 @@ html{
     /* background-color: #191d1f; */
     background-color: #218ea3;
     color: #fff;
-    padding: 50px 20px;
+    padding: 30px 20px;
 }
 
 .sobremi .contenido-seccion{
@@ -159,7 +159,7 @@ html{
     font-weight: 100;
     letter-spacing: 1px;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     line-height: 1.5;
     /* line-height: inherit; */
     
@@ -213,22 +213,34 @@ html{
 }
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
-    width: 78px;
-    height: 100px;
+    width: calc(25% - 35px); /* Ancho deseado para cada elemento con margen */
+    max-width: 200px; /* Ancho máximo para cada elemento */
     /* background-color: #252A2E; */
     border-radius: 10px;
-    margin: 0 15px 15px 0;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #33BDDA;
 }
+
+.sobremi .fila .col .contenedor-intereses .interes img {
+    max-width: 70%; /* Ajustar el tamaño máximo de la imagen */
+    max-height: 70%; /* Ajustar el tamaño máximo de la imagen */
+    height: auto;
+}
+
+/* .sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: #33BDDA;
+} */
+
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
@@ -265,7 +277,7 @@ html{
     font-family: 'Roboto', sans-serif;
     background-color: #252A2E;
     color: #fff;
-    padding: 40px 20px;
+    padding: 30px 20px;
     border-radius: 0px;
 }
 .portfolio .contenido-seccion{
@@ -499,13 +511,19 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
+    .sobremi{
+        /* background-color: #191d1f; */
+        background-color: #218ea3;
+        color: #fff;
+        padding: 20px 20px;
+    }
     .sobremi .fila{
         display: block;
         /* margin: 20px; */
     }
     .sobremi .fila .col{
         width: fit-content;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
     .sobremi .fila .tecnologias{
         width: fit-content;
@@ -540,5 +558,23 @@ footer .arriba{
         display: inline-block;
         color: #218ea3;
         width: 90px;
+        color: #fff;
+    }
+
+    .sobremi .fila .col .contenedor-intereses .interes{
+        width: 80px;
+        height: 80px;
+        /* background-color: #252A2E; */
+        border-radius: 10px;
+        margin: 0 15px 15px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    
+    .sobremi .fila .col .contenedor-intereses .interes img{
+        width: 40px;
     }
 }
