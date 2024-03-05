@@ -376,7 +376,7 @@ html{
     background-image: url(../img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
-    padding: 45px 0;
+    padding: 15px 0;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -440,7 +440,7 @@ html{
     width: 100%;
 }
 
-footer{
+/* footer{
     background-color: #252A2E;
     color: #fff;
     padding: 50px 0 30px 0;
@@ -482,9 +482,136 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+} */
+
+/* footer nuevo */
+.content-foo {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  .content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .content-foo p,
+  .content-foo ul {
+    color: #ccc;
+  }
+  
+  .content-foo ul {
+    list-style: none;
+  }
+  
+  .content-foo ul li {
+    padding: 5px 0;
+  }
+  
+  .content-foo ul li i {
+    margin-right: 8px;
+  }
+  
+  .content-foo a {
+    display: block;
+    color: #ccc;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  
+  .content-foo a:hover {
+    color: #fff;
+  }
+  
+  .copyrigth {
+    background-color: #252A2E;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .copyrigth h2 {
+    font-size: 24px;
+    margin: 15px 0 15px 25px;
+    color: #ccc;
+  }
+  
+  .copyrigth .redes-sociales {
+    display: flex !important;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  .copyrigth .redes-sociales .bubble {
+    width: 50px;
+    height: 50px;
+    background: #252A2E;
+    border-radius: 50px;
+    margin: 10px;
+    filter: drop-shadow(0 0 10px #000);
+  }
+  
+  .copyrigth .redes-sociales .bubble:hover {
+    transform: scale(1.1);
+    background-color: #218ea3;
+  }
+  
+  .copyrigth .redes-sociales .bubble i {
+    color: #ccc;
+    padding: 12px 0;
+  }
+  
+  .copyrigth .redes-sociales .bubble:hover i {
+    color: #1f2b40;
+  }
+
+  footer {
+    background: #218ea3;
+    padding-top: 30px;
+    margin: auto;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  } 
+
+  .content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
+footer .arriba{  width: 50px;
+    height: 50px;
+    /* background: #252A2E; */
+    border-radius: 50px;
+    margin: 10px;
+    filter: drop-shadow(0 0 10px #000);
+  }
 
+  .copyrigth .redes-sociales .bubble:hover {
+    transform: scale(1.1);
+    background-color: #218ea3;
+  }
+  
+  .copyrigth .redes-sociales .bubble i {
+    color: #ccc;
+    padding: 12px 0;
+  }
+  
+  .copyrigth .redes-sociales .bubble:hover i {
+    color: #fff;
+  }
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
@@ -509,6 +636,18 @@ footer .arriba{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+    
+    .content-foo {
+        width: 100%; /* Cambiar el ancho para ocupar toda la pantalla */
+        margin-bottom: 20px; /* Agregar margen inferior para separar los elementos */
+    }
+
+    .content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
 }
 @media screen and (max-width:700px){
     .sobremi{
@@ -549,14 +688,16 @@ footer .arriba{
         width: 100%;
     }
     .contacto .fila{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .contacto .fila .col{
         width: 100%;
     }
     .sobremi .fila .col ul li strong{
         display: inline-block;
-        color: #218ea3;
+        color: #fff;
         width: 90px;
         color: #fff;
     }
@@ -577,4 +718,45 @@ footer .arriba{
     .sobremi .fila .col .contenedor-intereses .interes img{
         width: 40px;
     }
+
+    
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+      }
+    
+    .content-foo {
+        width: calc(50% - 20px); 
+        margin: 0px;
+      }
+    
+    .footer-container {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos a una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    }
+    
+
+    .content-foo {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin: 20px; /* Espacio entre los elementos */
+      }
+
+    .copyrigth h2 {
+        font-size: 18px;
+        margin: 15px 0 15px 25px;
+        color: #fff;
+    }
+
+  .content-foo p, .content-foo ul {
+    color: #fff;
+    }
+
+    .content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
 }
